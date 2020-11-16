@@ -9,5 +9,10 @@ el: '#root',
 data: {
   message:"Scrivi qui",
   image: 'img/vueimage.png'
+},
+methods: {
+ changeimg: function () {
+   alert("Ciao");
+ }
 }
 });
