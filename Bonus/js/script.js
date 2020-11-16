@@ -7,6 +7,7 @@
 var app = new Vue({
 el: '#root',
 data: {
-  message:"Scrivi qui"
+  message:"Scrivi qui",
+  img: 'vueimage.png'
 }
 });

@@ -17,6 +17,8 @@
     <div id = "root">
     <h1>Questo è il messaggio: {{message}}</h1>
     <input v-model="message">
+    <!-- con v-bind in forma contratta inseriamo l'attributo src per far comparire un img  -->
+    <img :src="'img/' + img" width="200"/>
     </div>
 
 
