@@ -8,7 +8,8 @@ var app = new Vue({
 el: '#root',
 data: {
   message:"Scrivi qui",
-  image:'img/vueimage.png'
+  image:'img/vueimage.png',
+  imgtitle:null
 
 },
 
@@ -16,8 +17,10 @@ methods: {
  changeimg: function () {
     if (this.image === 'img/vueimage.png') {
       this.image = 'img/imgvue2.webp';
+      this.imgtitle = "immagine 2";
     } else {
       this.image = 'img/vueimage.png';
+      this.imgtitle = "immagine 1";
     }
  }
 }
