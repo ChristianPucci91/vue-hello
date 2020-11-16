@@ -8,11 +8,17 @@ var app = new Vue({
 el: '#root',
 data: {
   message:"Scrivi qui",
-  image: 'img/vueimage.png'
+  image:'img/vueimage.png'
+
 },
+
 methods: {
  changeimg: function () {
-   alert("Ciao");
+    if (this.image === 'img/vueimage.png') {
+      this.image = 'img/imgvue2.webp';
+    } else {
+      this.image = 'img/vueimage.png';
+    }
  }
 }
 });
