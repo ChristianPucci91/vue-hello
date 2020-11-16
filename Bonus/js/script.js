@@ -8,6 +8,6 @@ var app = new Vue({
 el: '#root',
 data: {
   message:"Scrivi qui",
-  img: 'vueimage.png'
+  image: 'img/vueimage.png'
 }
 });
