@@ -17,7 +17,7 @@
     <h1>Questo è il messaggio: {{message}}</h1>
     <input v-model="message">
     <!-- con v-bind in forma contratta inseriamo l'attributo src per far comparire un img  -->
-    <img class="show":src="image">
+    <img :src="image">
     <h3 v-model="imgtitle">Immagine scelta: {{imgtitle}} </h3>
     <button @click="changeimg">Cambia immagine</button>
     </div>
